@@ -19,9 +19,9 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
             android:layout_marginBottom="20dp"
-            android:text="Kapasitas Tempat Sampah"
+            android:text="Kapasitas Tempat Sampah (%)"
             android:textColor="@color/black"
-            android:textSize="25sp"
+            android:textSize="24sp"
             android:textStyle="bold" />
 
         <com.ekn.gruzer.gaugelibrary.ArcGauge
@@ -34,9 +34,28 @@
             android:layout_height="wrap_content"
             android:id="@+id/status"
             android:text="@string/nilai_status"
-            android:textSize="30sp"
+            android:textSize="28sp"
             android:textColor="@color/black"
-            android:layout_marginBottom="16dp" />
+            android:layout_marginTop="-20dp"
+            android:layout_marginBottom="40dp" />
+
+        <Button
+            android:id="@+id/btnON"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/primary_button"
+            android:textColor="@color/white"
+            android:text="Buka Tempat Sampah" />
+
+        <Button
+            android:id="@+id/btnOFF"
+            android:layout_width="300dp"
+            android:padding="15dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/outline_button"
+            android:textColor="@color/purple_500"
+            android:text="Tutup Tempat Sampah" />
 
     </LinearLayout>
 
